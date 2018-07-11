@@ -68,7 +68,7 @@ Benchmarking Pile - insert **200,000,000** instances of **Person** (class with [
 [IPile](IPile.cs) provides an abstraction of memory managers. NFX Provides two implementations out of the box:
 * [DefaultPile](DefaultPile.cs) - stores data in byte[]
 * [MMFPile](MMFPile.cs) - stores data in Memory Mapped Files
-Both implemntations are 100% managed code C# only, no C++ involved.
+Both implementations are 100% managed code C# only, no C++ involved.
 
 **1 - Create IPile-implementing Instance**
 
